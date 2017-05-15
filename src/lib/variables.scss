@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@function color($color) {
+  @return map-get($colors, $color)
+}
+
+$colors: (
+  primary: #005AAA,
+  secondary: #32db64,
+  danger: #f53d3d,
+  danger-border: red,
+  light-danger: #ffa6a6,
+  light-danger-border: red,
+  almostlight: #f0f0f0,
+  light: #f4f4f4,
+  lighter: #fdfdfd,
+  light-border: gray,
+  dark: #222,
+  dark-border: black,
+  favorite: #69BB7B,
+  white: #ffffff,
+  grob-blue: #004380,
+  grob-blue-highlight: #005AAA,
+  warning: #f5ef3d,
+  warning-border: yellow,
+  ok: #32db64,
+  ok-border: darkgreen
+);
